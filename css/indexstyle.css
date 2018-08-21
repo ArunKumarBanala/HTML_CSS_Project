@@ -1,0 +1,153 @@
+*{
+    margin: 0px;padding: 0px;
+}
+.main{
+    width: 1000px;height: auto;background: grey;margin: 0px auto;
+}
+.main .head{
+    width: 1000px;height: 100px;background:white;
+}
+.main .menu{
+    width: 1000px;height: 40px;background: rgb(233, 232, 232);
+}
+.main .slider{
+    width: 1000px;height: 550px;background: white;
+}
+.main .content{
+    width: 1000px;height: 800px;background: lightblue;
+}
+.main2{
+    width: 1000px;height: 100px;background: black;margin: 0px auto;
+}
+.main2 .menu{
+    width: 1000px;height: 50px;
+}
+.main2 .copyright{
+    width: 1000px;height: 30px;text-align: center;color: lightgrey;
+}
+.main2 .footer{
+    list-style: none;width: 630px;margin: 0px auto;
+}
+.main2 .footer li{
+    float: left;width: 100px;line-height: 50px;margin-left: 5px;
+}
+.main2 .footer li a{
+    text-decoration: none;color: lightgray;
+}
+.content .top{
+    width: 1000px;height: 200px;background: white;
+}
+.content .bottom{
+    width: 1000px;height: 600px;background: grey;
+}
+.head1 .logo{
+    height: 100px;margin-left: 5px;float: left;
+}
+.titlehead .title{
+    float: left;margin-top: 20px;color: rgb(11, 137, 196);font-size: 30px;margin-left: 5px;
+}
+.head .head1{
+    width: 125px;height: 100px;float: left;
+}
+.head .head2{
+    width: 500px;height: 100px;background: white;float: left;
+}
+.head2 .titlehead{
+    width: 500px;height: 60px;background: white;float: left;
+}
+.head2 .captionhead{
+    width: 500px;height: 40px;background: white;float: left;
+}
+.captionhead .caption{
+    margin-left: 5px;color: rgb(111, 190, 226);
+}
+.head .head3{
+    width: 375px;height: 100px;background: white;float: left;
+}
+.head3 .icon{
+    width: 40px;height: 40px;float: right;margin-top: 30px;margin-left: 5px;
+}
+/* menu creation */
+
+.menu .nav{
+    list-style: none;
+    /* list-style-image: url(2.jpg); */
+}
+.menu .nav li{
+    float: left;background: steelblue;width: 160.6px;height: 40px;text-align: center;line-height: 40px;
+    margin-left: 5px;
+}
+.menu .nav li a{
+    color: white;text-decoration: none;width: 160.6px;height: 40px;float: left;
+}
+.menu .nav li a:hover{
+    background: rgba(13, 117, 173, 0.37);font-size: 18px;
+}
+.menu .nav .subNav{
+    list-style: none;
+    visibility: hidden;
+    position: relative;
+    z-index: 1;
+}
+.menu .nav li:hover .subNav{
+    visibility: visible;
+}
+.menu .nav .subNav .subSubNav{
+    list-style: none;margin-left: 160px;visibility: hidden;
+    position: relative;
+    top: -40px;
+}
+.menu .nav .subNav li:hover .subSubNav{
+    visibility: visible;
+}
+.menu .nav .subNav li{
+    margin-left: 0px !important;background: black;border-bottom: 1px solid white;
+}
+.subSubNav li{
+    border-left: 1px solid white;
+}
+/* menu creation end */
+.slider .sliderImg{
+   width: 1000px;height: 550px;
+}
+/* content start */
+.content .top .title{
+    text-align: center;background: white;height: 50px;line-height: 50px;
+}
+.content .top .about{
+    text-align: justify;color: grey;margin: 10px;
+}
+.content .bottom .left{
+    width: 350px;height:600px;background:white;float: left;
+}
+.content .bottom .right{
+    width: 650px;height: 600px;background: lightgray;float: left;
+}
+.content .bottom .left .heading1{
+    background: white;height: 30px;line-height: 30px;
+}
+.content .bottom .left .img1{
+    width: 300px;height: 350px;float: left;margin-top: 20px;float: left;
+}
+.content .bottom .left .data{
+    text-align: left;float: left;margin: 10px;color: grey;
+}
+.content .bottom .left .ancLeft{
+    float: left;margin-left: 10px;text-decoration: none;background:orange;width: 100px;height:30px; 
+    text-align: center;line-height: 30px;
+}
+.content .bottom .right .service{
+    width: 630px;height: 285px;background: rgb(253, 253, 253);
+    margin-left: 10px;margin-top: 10px;
+}
+.content .bottom .right .service .serviceImg{
+    width: 310px;height: 250px;margin-top:17px;margin-left: 10px;float: left;
+    
+}
+.content .bottom .right .service .desc{
+    width: 290px;height: 160px;float: left;text-align: justify;margin-left: 10px;margin-top: 30px;
+}
+.content .bottom .right .service .anc{
+    float: left;margin-left: 10px;background: orange;color: white;width: 100px;height: 40px;
+    text-decoration: none;text-align: center;line-height: 40px;
+}

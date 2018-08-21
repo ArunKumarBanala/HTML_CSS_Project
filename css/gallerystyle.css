@@ -1,0 +1,158 @@
+*{
+    margin: 0px;padding: 0px;
+}
+.main{
+    width: 1000px;height: 900px;background: grey;margin: 0px auto;
+}
+.main .head{
+    width: 1000px;height: 100px;background:white;
+}
+.main .menu{
+    width: 1000px;height: 40px;background: rgb(233, 232, 232);
+}
+.main .slider{
+    width: 1000px;height: 60px;background: rgb(250, 251, 252);
+}
+.main .content{
+    width: 1000px;height: 700px;background: white;
+}
+.main2{
+    width: 1000px;height: 100px;background: black;margin: 0px auto;
+}
+.main2 .menu{
+    width: 1000px;height: 50px;
+}
+.main2 .copyright{
+    width: 1000px;height: 30px;text-align: center;color: lightgrey;
+}
+.main2 .footer{
+    list-style: none;width: 630px;margin: 0px auto;
+}
+.main2 .footer li{
+    float: left;width: 100px;line-height: 50px;margin-left: 5px;
+}
+.main2 .footer li a{
+    text-decoration: none;color: lightgray;
+}
+
+.head1 .logo{
+    height: 100px;margin-left: 5px;float: left;
+}
+.titlehead .title{
+    float: left;margin-top: 20px;color: rgb(11, 137, 196);font-size: 30px;margin-left: 5px;
+}
+.head .head1{
+    width: 125px;height: 100px;float: left;
+}
+.head .head2{
+    width: 500px;height: 100px;background: white;float: left;
+}
+.head2 .titlehead{
+    width: 500px;height: 60px;background: white;float: left;
+}
+.head2 .captionhead{
+    width: 500px;height: 40px;background: white;float: left;
+}
+.captionhead .caption{
+    margin-left: 5px;color: rgb(111, 190, 226);
+}
+.head .head3{
+    width: 375px;height: 100px;background: white;float: left;
+}
+.head3 .icon{
+    width: 40px;height: 40px;float: right;margin-top: 30px;margin-left: 5px;
+}
+/* menu creation */
+
+.menu .nav{
+    list-style: none;
+    /* list-style-image: url(2.jpg); */
+}
+.menu .nav li{
+    float: left;background: steelblue;width: 160.6px;height: 40px;text-align: center;line-height: 40px;
+    margin-left: 5px;
+}
+.menu .nav li a{
+    color: white;text-decoration: none;width: 160.6px;height: 40px;float: left;
+}
+.menu .nav li a:hover{
+    background: rgba(13, 117, 173, 0.37);font-size: 18px;
+}
+.menu .nav .subNav{
+    list-style: none;
+    visibility: hidden;
+    position: relative;
+    z-index: 1;
+}
+.menu .nav li:hover .subNav{
+    visibility: visible;
+}
+.menu .nav .subNav .subSubNav{
+    list-style: none;margin-left: 160px;visibility: hidden;
+    position: relative;
+    top: -40px;
+}
+.menu .nav .subNav li:hover .subSubNav{
+    visibility: visible;
+}
+.menu .nav .subNav li{
+    margin-left: 0px !important;background: black;border-bottom: 1px solid white;
+}
+.subSubNav li{
+    border-left: 1px solid white;
+}
+/* menu creation end */
+
+/* slider creation start */
+.slider .sliderHead{
+    list-style: none;
+}
+.slider .sliderHead .lessthan{
+    float: left; width: 10px;height: 60px;text-align: center;line-height: 60px;
+}
+.slider .sliderHead li{
+    float: left;width: 100px;height: 60px;text-align: center;line-height: 60px;color: gray;
+   
+}
+.slider .sliderHead li a{
+    text-decoration: none;color: gray;
+}
+.slider .sliderHead li a:hover{
+    text-decoration: underline;
+}
+/* slider end */
+
+/* content start */
+.content .top{
+    width: 1000px;height: 110px;background: white;
+}
+.content .bottom{
+    width: 1000px;height: 690;background: white;
+}
+.content .top .data{
+    padding: 10px;text-align: justify;line-height: 20px;
+}
+.content .bottom .left{
+    width: 326.6px;height: 580px;background: white;float: left;margin:5px 0px 5px 5px;
+}
+.content .bottom .middle{
+    width: 326.6px;height: 580px;background: white;float: left;margin:5px 0px 5px 5px;
+}
+.content .bottom .right{
+    width: 326.6px;height: 580px;background: white;float: left;margin:5px 0px 5px 5px;
+}
+.content img{
+    width: 310px;margin: 10px 5px 10px 7px;
+}
+/* .left img{ 
+    width: 310px;margin: 10px 5px 10px 7px;
+}
+.middle img{
+    width: 310px;margin: 10px 5px 10px 7px;
+}
+.right img{
+    width: 310px;margin: 10px 5px 10px 7px;
+} */
+.content p{
+    text-align: justify;padding: 10px;
+}

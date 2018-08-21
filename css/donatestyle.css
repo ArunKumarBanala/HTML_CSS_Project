@@ -1,0 +1,184 @@
+*{
+    margin: 0px;padding: 0px;
+}
+.main{
+    width: 1000px;height: 1890px;background: grey;margin: 0px auto;
+}
+.main .head{
+    width: 1000px;height: 100px;background:white;
+}
+.main .menu{
+    width: 1000px;height: 40px;background: rgb(233, 232, 232);
+}
+.main .slider{
+    width: 1000px;height: 350px;background: rgb(250, 251, 252);
+}
+.main .content{
+    width: 1000px;height: 1400px;background: white;
+}
+.main2{
+    width: 1000px;height: 80px;background: black;margin: 0px auto;
+}
+.main2 .copyright{
+    width: 1000px;height: 80px;text-align: center;color: lightgrey;line-height: 80px;
+}
+
+
+.head1 .logo{
+    height: 100px;margin-left: 5px;float: left;
+}
+.titlehead .title{
+    float: left;margin-top: 20px;color: rgb(11, 137, 196);font-size: 30px;margin-left: 5px;
+}
+.head .head1{
+    width: 125px;height: 100px;float: left;
+}
+.head .head2{
+    width: 500px;height: 100px;background: white;float: left;
+}
+.head2 .titlehead{
+    width: 500px;height: 60px;background: white;float: left;
+}
+.head2 .captionhead{
+    width: 500px;height: 40px;background: white;float: left;
+}
+.captionhead .caption{
+    margin-left: 5px;color: rgb(111, 190, 226);
+}
+.head .head3{
+    width: 375px;height: 100px;background: white;float: left;
+}
+.head3 .icon{
+    width: 40px;height: 40px;float: right;margin-top: 30px;margin-left: 5px;
+}
+/* menu creation */
+
+.menu .nav{
+    list-style: none;
+    /* list-style-image: url(2.jpg); */
+}
+.menu .nav li{
+    float: left;background: steelblue;width: 160.6px;height: 40px;text-align: center;line-height: 40px;
+    margin-left: 5px;
+}
+.menu .nav li a{
+    color: white;text-decoration: none;width: 160.6px;height: 40px;float: left;
+}
+.menu .nav li a:hover{
+    background: rgba(13, 117, 173, 0.37);font-size: 18px;
+}
+.menu .nav .subNav{
+    list-style: none;
+    visibility: hidden;
+    position: relative;
+    z-index: 1;
+}
+.menu .nav li:hover .subNav{
+    visibility: visible;
+}
+.menu .nav .subNav .subSubNav{
+    list-style: none;margin-left: 160px;visibility: hidden;
+    position: relative;
+    top: -40px;
+}
+.menu .nav .subNav li:hover .subSubNav{
+    visibility: visible;
+}
+.menu .nav .subNav li{
+    margin-left: 0px !important;background: black;border-bottom: 1px solid white;
+}
+.subSubNav li{
+    border-left: 1px solid white;
+}
+/* menu creation end */
+
+/* slider creation start */
+.slider .sliderData{
+    width: 1000px;height: 30px;margin-left: 50px;padding-top: 30px;font-size: 16px;font-family: Arial, Helvetica, sans-serif;
+}
+.slider .data{
+    margin: 10px 30px 10px 50px;line-height: 30px;width: auto;height: 100px;
+}
+.slider .data2{
+    margin-bottom: 10px;
+}
+/* slider creation end */
+
+/* content start */
+.content .top{
+    width: 1000px;height: 160px;background: rgb(250, 251, 252);
+}
+.content .middle{
+    width: 1000px;height: 100px;background: rgb(250, 251, 252);
+}
+.content .bottom{
+    width: 1000px;height: 1140px;background: rgb(250, 251, 252);
+}
+.content .top .topHeading{
+    margin-left: 30px;padding: 20px;font-size: 20px;
+}
+.top .dollorSymbol{
+    width: 30px;height: 35px;background: lightgray;line-height: 30px;text-align: center;border: 1px solid black;
+    margin-left: 60px;float: left;margin-top: 1.5px;font-weight: bold;
+
+}
+/* .top .dollorSymbol{ 
+    width: 30px;height: 30px;text-align: center;line-height: 30px;float: left;margin-left: 80px;
+    visibility: visible;font-size: 18px;color: gray;
+}*/
+.top .form .minMoney{
+    width: 130px;height: 37px; float: left;font-size: 18px;padding:0px 10px 0px 10px;
+    margin-left: -1px;color: grey;line-height: 30px;border: 1px solid black;
+}
+.top .data{
+    font-size: 15px;margin: 30px 0px 10px 50px;
+}
+.middle .radioButton{
+    margin: 10px 0px 10px 50px;font: inherit;
+}
+.radioButton .give-gateway{
+    margin-left: 30px;
+}
+label{
+    display: inline-block;
+}
+.middle .pData{
+    margin: 30px 0px 10px 50px;font-weight: bold;
+}
+.bottom .form{
+    width: 1000px;padding: 20px;
+}
+
+.bottom .form .tHeadings{
+    color: gray;
+}
+.form .inp{
+    float: inherit;width: 400px;height:35px;margin-left: 50px;margin-bottom: 30px;line-height: 35px;padding-left: 10px;
+    background: rgb(247, 244, 244);
+}
+
+.bottom .form .text{
+    float: inherit;width:400px;height: 100px;margin-left: 50px;padding: 10px 0px 0px 10px;background: rgb(247, 244, 244);
+   
+}
+
+.bottom .data1{
+    margin-top: 50px;margin-left: 30px;
+}
+.bottom .account{
+    margin: 20px 0px 10px 50px;
+}
+.bottom .data2{
+    margin: 20px 0px 20px 50px; 
+}
+.bottom .data3{
+    margin: 10px 0px 10px 80px;
+}
+.bottom .data3 li{
+    margin-bottom: 10px;
+}
+.bottom .submit{
+     width: 130px;height: 50px;margin: 10px 0px 10px 60px;border-radius: 5px;background: #3086c5;
+     line-height: 50px;color: white;
+}
+/* content End */
